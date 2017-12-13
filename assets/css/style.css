@@ -1,0 +1,21 @@
+body {
+		background-color: LightCyan;
+		font-size: 20px;
+		font-family: "Lato-Light"
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Seville, sans-serif;
+	text-align: center;
+	color: DeepPink;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 18px;
+}
+
