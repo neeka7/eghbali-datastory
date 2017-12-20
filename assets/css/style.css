@@ -19,3 +19,31 @@ p {
 	font-size: 18px;
 }
 
+#data-collection div {
+	min-height: 150px;
+	background: Blue;
+}
+
+#section1 {
+	display: grid;
+	grid-gap: 15 px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+
+.big-section p, div {
+	vertical-align: top;
+	display: inline-block;
+}
+
+#datastory {
+	display: grid;
+	grid-gap: 15px;
+ 	/* Change auto-fit to auto-fill  */
+ 	grid-template-rows: repeat(auto-fill, minmax(320px, 1fr));
+ color: black;
+}
+
+#datastory section {
+display: block;
+	}
